@@ -10,9 +10,10 @@ chislo=int(chislo)
 vybor=random.randint(1, 5)
 if  vybor >  chislo:
 	print(vybor)
-	print("Game over")
+	print("ТЫ ПРОДУЛ")
 if  vybor ==  chislo:
-	print("You vinner")
+	print("МОЛОТОК")
 if  vybor <  chislo:
 	print(vybor)
-	print("Game over")
+	print("ТЫ ПРОДУЛ")
+	
